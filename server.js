@@ -4,7 +4,7 @@ const app = express();
 require("dotenv").config();
 
 app.get("/api/get", (req, res) => {
-  res.send({ message: "Hello, World!" });
+  res.send({ message: "Hello, new dsfdsfWorld!" });
 });
 app.get("/api/get-details", (req, res) => {
   res.send({ Name: process.env.NAME });
